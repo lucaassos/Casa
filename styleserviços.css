@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonte/Montserrat-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    transition: backgound-color 0.3s ease;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #965F36;
+}
+
+menu {
+    background-color:#FFFFFF;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    height: 50px;
+    width: 1348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.botaoesquerda {
+    margin-left: 0;
+}
+
+.container {
+    width: 1348px;
+    height: 1800px;
+}
+.imagem {
+    width: 100%;
+    height: 100%;
+}
+
